@@ -9,7 +9,7 @@ type Props = Omit<ImageProps, "src"> & {
 
 const ThemeImage = (props: Props) => {
   const { srcLight, srcDark, ...rest } = props;
-
+//new turbo
   return (
     <>
       <Image {...rest} src={srcLight} className="imgLight" />
